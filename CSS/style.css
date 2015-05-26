@@ -1,0 +1,39 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+#mapDiv {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#HomeButton {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 10;
+}
+
+.dijitSliderProgressBar {
+  background-color: #7c1a20;
+  z-index: 1;
+}
+
+.dijitSliderBottomBumper, .dijitSliderLeftBumper {
+  background-color: #7c1a20;
+}
+
+@font-face{
+	font-family: AvenirBold;
+	src: url(../Fonts/Avenir/AvenirNextLTPro-Bold.otf);
+}
+
+@font-face{
+	font-family: AvenirRegular;
+	src: url(../Fonts/Avenir/AvenirNextLTPro-Regular.otf);
+}
